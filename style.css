@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arapey', serif;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(117, 14, 15);
+    background: linear-gradient(0deg, rgba(117, 14, 15, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+
+#hours,
+#minutes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#day {
+    text-align: center;
+    color: black;
+}
+
+#time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 10px;
+    color: black;
+
+
+
+}
+
+#dots {
+    font-weight: 900;
+    padding-right: 8px;
+}
+
+#digital-clock,
+#time {
+    position: relative;
+
+}
+
+#digital-clock {
+
+    color: white;
+    border: 3.5px solid black;
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px 45px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent , rgba(255,255,255,0.4));
+    
+
+}
+
+span {
+    font-size: 40px;
+    font-weight: 800;
+}
